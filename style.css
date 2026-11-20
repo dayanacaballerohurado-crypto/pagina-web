@@ -1,0 +1,33 @@
+/* =========================================
+   ESTILOS PROPIOS - SANTA CRUZ DE LA SIERRA
+   ========================================= */
+
+/* Fuente principal */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Suaviza las transiciones de las imágenes */
+img {
+  transition: transform 0.3s ease;
+}
+
+/* Mejora visual para el botón */
+#btnComidas {
+  user-select: none;
+}
+
+/* Animación sencilla para mostrar las comidas */
+#listaComidas {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 640px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}

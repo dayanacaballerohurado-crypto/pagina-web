@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santa Cruz de la Sierra - Curiosidades</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-white text-emerald-950 flex flex-col min-h-screen">
+
+  <!-- Barra de Navegación -->
+  <header class="bg-emerald-700 text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold tracking-wide">Santa Cruz de la Sierra</h1>
+
+      <nav class="space-x-4 text-sm md:text-base font-medium">
+        <a href="#inicio" class="hover:text-emerald-200 transition">Inicio</a>
+        <a href="#historia" class="hover:text-emerald-200 transition">Reseña Histórica</a>
+        <a href="#curiosidades" class="hover:text-emerald-200 transition">Curiosidades</a>
+        <a href="#contacto" class="hover:text-emerald-200 transition">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido Principal -->
+  <main class="flex-grow">
+
+    <!-- Sección de Inicio / Hero -->
+    <section id="inicio" class="bg-gradient-to-b from-emerald-600 to-emerald-500 text-white py-16 px-4 text-center">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4">
+          Tierra de Hospitalidad y Alegría
+        </h2>
+
+        <p class="text-lg md:text-xl text-emerald-100 mb-8">
+          Descubre la apasionante historia, los datos más fascinantes y la riqueza cultural de Santa Cruz.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-4 mb-10">
+          <a href="#historia"
+             class="bg-white text-emerald-700 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-emerald-50 transition">
+            Leer Reseña Histórica
+          </a>
+
+          <a href="#curiosidades"
+             class="bg-emerald-800 text-white border border-emerald-400 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-emerald-900 transition">
+            Explorar Curiosidades
+          </a>
+        </div>
+
+        <!-- Imagen principal -->
+        <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 max-w-3xl mx-auto">
+          <img
+            src="https://media.istockphoto.com/id/1179166816/es/foto/paisaje-cerca-de-samaipata-en-bolivia.jpg?s=612x612&w=0&k=20&c=1I-sRpUc9Y0gByjPDY4irIifHv2naAEAytLH1JlGcxc="
+            alt="Paisaje tropical y naturaleza de Santa Cruz de la Sierra"
+            onerror="this.onerror=null;this.src='https://placehold.co/1200x500/047857/ffffff?text=Santa+Cruz+de+la+Sierra';"
+            class="w-full h-64 md:h-80 object-cover">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Reseña Histórica -->
+    <section id="historia" class="max-w-5xl mx-auto px-4 pt-16 pb-8">
+      <div class="bg-white border border-emerald-200 rounded-2xl p-6 md:p-10 shadow-sm">
+
+        <div class="text-center mb-8">
+          <span class="bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">
+            Nuestra Identidad
+          </span>
+
+          <h3 class="text-3xl font-bold text-emerald-800 mt-2">
+            Reseña Histórica de Santa Cruz
+          </h3>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+          <!-- Texto -->
+          <div class="space-y-4 text-emerald-950 leading-relaxed text-justify">
+            <p>
+              <strong>Fundación (1561):</strong> La historia de Santa Cruz de la Sierra comienza el
+              <strong>26 de febrero de 1561</strong>, cuando el capitán español
+              <strong>Ñuflo de Chaves</strong> fundó la ciudad a orillas del arroyo Sutó,
+              en las serranías de Chiquitos (cerca de la actual San José de Chiquitos),
+              bautizándola en honor a su tierra natal en Extremadura, España.
+            </p>
+
+            <p>
+              <strong>Traslados y Consolidación:</strong> Debido a los constantes conflictos con pueblos
+              originarios y el aislamiento geográfico, la ciudad tuvo que ser trasladada en varias ocasiones
+              hasta asentarse definitivamente a orillas del <strong>río Piraí</strong> a finales del siglo XVI,
+              fusionándose con la población de San Lorenzo Real de la Frontera.
+            </p>
+
+            <p>
+              <strong>Independencia y Desarrollo:</strong> Tras siglos de aislamiento colonial, Santa Cruz
+              proclamó su grito libertario el <strong>24 de septiembre de 1810</strong>. En el siglo XX,
+              impulsada por la integración vial, la agroindustria y su característico diseño urbano de anillos
+              concéntricos, se transformó en el principal motor económico y demográfico de Bolivia.
+            </p>
+          </div>
+
+          <!-- Galería -->
+          <div class="space-y-4">
+
+            <div class="rounded-xl overflow-hidden shadow-md border border-emerald-100">
+              <img
+                src="https://tse4.mm.bing.net/th/id/OIP.o_ZsofSNh3zLQfhAw_sTGwHaD3?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                alt="Arquitectura colonial y patrimonio histórico"
+                onerror="this.onerror=null;this.src='https://placehold.co/800x450/059669/ffffff?text=Fundacion+y+Patrimonio+Historico';"
+                class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+
+              <p class="bg-emerald-50 text-emerald-800 text-xs p-2 text-center font-medium">
+                Legado colonial y arquitectura tradicional cruceña
+              </p>
+            </div>
+
+            <div class="rounded-xl overflow-hidden shadow-md border border-emerald-100">
+              <img
+                src="https://i.pinimg.com/originals/4b/41/81/4b4181f43a22d8b451ab4ec21e6d74dc.jpg"
+                alt="Crecimiento urbano moderno de Santa Cruz"
+                onerror="this.onerror=null;this.src='https://placehold.co/800x450/065f46/ffffff?text=Ciudad+Moderna+de+los+Anillos';"
+                class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+
+              <p class="bg-emerald-50 text-emerald-800 text-xs p-2 text-center font-medium">
+                Crecimiento moderno y desarrollo de la ciudad
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Curiosidades -->
+    <section id="curiosidades" class="max-w-5xl mx-auto px-4 py-12">
+      <div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-6 md:p-8 shadow-sm">
+
+        <h3 class="text-3xl font-bold text-emerald-800 mb-6 text-center">
+          Curiosidades de Santa Cruz
+        </h3>
+
+        <ul class="space-y-4 text-emerald-900 text-lg mb-8">
+
+          <li class="flex items-start bg-white p-4 rounded-xl shadow-xs border border-emerald-100">
+            <span class="text-emerald-600 font-bold mr-3">•</span>
+            <div>
+              <strong>Ciudad de los anillos:</strong> Su diseño urbano está organizado en avenidas circulares llamadas anillos.
+            </div>
+          </li>
+
+          <li class="flex items-start bg-white p-4 rounded-xl shadow-xs border border-emerald-100">
+            <span class="text-emerald-600 font-bold mr-3">•</span>
+            <div>
+              <strong>Fundación:</strong> Fue fundada el 26 de febrero de 1561 por el capitán español Ñuflo de Chaves.
+            </div>
+          </li>
+
+          <li class="flex items-start bg-white p-4 rounded-xl shadow-xs border border-emerald-100">
+            <span class="text-emerald-600 font-bold mr-3">•</span>
+            <div>
+              <strong>Bandera cruceña:</strong> Sus franjas verde, blanco y verde representan la vegetación y la pureza.
+            </div>
+          </li>
+
+          <li class="flex items-start bg-white p-4 rounded-xl shadow-xs border border-emerald-100">
+            <span class="text-emerald-600 font-bold mr-3">•</span>
+            <div>
+              <strong>El Tajibo:</strong> Es el árbol emblemático que llena de flores amarillas y rosadas la ciudad en primavera.
+            </div>
+          </li>
+
+        </ul>
+
+        <!-- Botón y lista de comidas -->
+        <div class="text-center">
+          <button
+            id="btnComidas"
+            class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-xl shadow transition duration-200 cursor-pointer">
+            Ver Comidas Típicas 🍲
+          </button>
+
+          <!-- Lista oculta por defecto -->
+          <div id="listaComidas" class="hidden mt-6 bg-white border border-emerald-200 rounded-xl p-6 text-left shadow-md transition-all">
+
+            <h4 class="text-xl font-bold text-emerald-800 mb-6 border-b border-emerald-100 pb-3 text-center">
+              Comidas Típicas Cruceñas:
+            </h4>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+              <!-- 1. Majadito -->
+              <div class="bg-emerald-50/60 border border-emerald-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                <img
+                  src="https://thumbs.dreamstime.com/b/bolivian-majadito-traditional-dish-dried-meat-rice-fried-eggs-plantains-bolivian-majadito-traditional-dish-dried-399076884.jpg"
+                  alt="Majadito cruceño"
+                  onerror="this.onerror=null;this.src='https://placehold.co/600x400/059669/ffffff?text=Majadito+Cruceno';"
+                  class="w-full h-40 object-cover">
+
+                <div class="p-4 flex-grow">
+                  <h5 class="font-bold text-emerald-900 text-lg mb-1">Majadito cruceño</h5>
+                  <p class="text-sm text-emerald-800">
+                    Arroz con charque (carne deshidratada), urucú, huevo y plátano frito.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 2. Locro carretero -->
+              <div class="bg-emerald-50/60 border border-emerald-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                <img
+                  src="https://www.opinion.com.bo/media/opinion/images/2012/08/06/2012N66694.jpg"
+                  alt="Locro carretero"
+                  onerror="this.onerror=null;this.src='https://placehold.co/600x400/047857/ffffff?text=Locro+Carretero';"
+                  class="w-full h-40 object-cover">
+
+                <div class="p-4 flex-grow">
+                  <h5 class="font-bold text-emerald-900 text-lg mb-1">Locro carretero</h5>
+                  <p class="text-sm text-emerald-800">
+                    Sopa espesa y tradicional de charque con yuca, plátano verde y achiote.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 3. Cuñapé -->
+              <div class="bg-emerald-50/60 border border-emerald-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                <img
+                  src="https://tse4.mm.bing.net/th/id/OIP.9kP_oRh26bQEJj4BK2yHJgHaDO?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                  alt="Cuñapé"
+                  onerror="this.onerror=null;this.src='https://placehold.co/600x400/10b981/ffffff?text=Cunape';"
+                  class="w-full h-40 object-cover">
+
+                <div class="p-4 flex-grow">
+                  <h5 class="font-bold text-emerald-900 text-lg mb-1">Cuñapé</h5>
+                  <p class="text-sm text-emerald-800">
+                    Panecillo horneado hecho de almidón de yuca y abundante queso fresco.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 4. Sonso de yuca -->
+              <div class="bg-emerald-50/60 border border-emerald-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                <img
+                  src="https://tse1.explicit.bing.net/th/id/OIP.ZTkK5dHB1v46NkY7n2kcpwHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                  alt="Sonso de yuca"
+                  onerror="this.onerror=null;this.src='https://placehold.co/600x400/065f46/ffffff?text=Sonso+de+Yuca';"
+                  class="w-full h-40 object-cover">
+
+                <div class="p-4 flex-grow">
+                  <h5 class="font-bold text-emerald-900 text-lg mb-1">Sonso de yuca</h5>
+                  <p class="text-sm text-emerald-800">
+                    Deliciosa masa de yuca cocida y queso asada a la parrilla o en sartén.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 5. Masaco de yuca -->
+              <div class="bg-emerald-50/60 border border-emerald-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                <img
+                  src="https://www.culinariamente.com/wp-content/uploads/2024/11/Receta-de-masaco-de-yuca-boliviano.jpg"
+                  alt="Masaco de yuca"
+                  onerror="this.onerror=null;this.src='https://placehold.co/600x400/059669/ffffff?text=Masaco+Tradicional';"
+                  class="w-full h-40 object-cover">
+
+                <div class="p-4 flex-grow">
+                  <h5 class="font-bold text-emerald-900 text-lg mb-1">Masaco de yuca o plátano</h5>
+                  <p class="text-sm text-emerald-800">
+                    Majado tradicional en tacú acompañado de chicharrón de cerdo o queso.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="bg-emerald-900 text-white py-12 px-4 text-center">
+      <div class="max-w-2xl mx-auto">
+        <h3 class="text-2xl font-bold mb-4">
+          ¿Te gustó conocer más sobre Santa Cruz?
+        </h3>
+
+        <p class="text-emerald-200">
+          Comparte el orgullo y la tradición de nuestra hermosa tierra camba.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pie de Página -->
+  <footer class="bg-emerald-950 text-white py-6 px-4 border-t border-emerald-800">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left space-y-2 sm:space-y-0">
+      <p class="text-sm font-medium">
+        Creado por: <span class="text-emerald-300 font-bold">GIOVANNI PACO LLAVETA</span>
+      </p>
+
+      <p class="text-sm font-medium">
+        Teléfono: <span class="text-emerald-300 font-bold">68793722</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- JavaScript propio -->
+  <script src="script.js"></script>
+</body>
+</html>
